@@ -1,7 +1,7 @@
 Summary:	Post-processing for scanned and photocopied book pages
 Name:		unpaper
 Version:	7.0.0
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Applications
 Source0:	https://www.flameeyes.com/files/%{name}-%{version}.tar.xz
@@ -31,14 +31,14 @@ rotating it to the correct angle. This process is called "deskewing".
 %setup -q
 
 %build
-%meson build
+%meson
 
-%meson_build -C build
+%meson_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%meson_install -C build
+%meson_install
 
 %clean
 rm -rf $RPM_BUILD_ROOT
