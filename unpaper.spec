@@ -1,7 +1,7 @@
 Summary:	Post-processing for scanned and photocopied book pages
 Name:		unpaper
 Version:	7.0.0
-Release:	2
+Release:	3
 License:	GPL v2
 Group:		Applications
 Source0:	https://www.flameeyes.com/files/%{name}-%{version}.tar.xz
